@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+name: peacetrue-asm
+title: peacetrue asm
+=======
+name: peacetrue-core
+title: peacetrue-core
+>>>>>>> origin/master
+version: master
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc
