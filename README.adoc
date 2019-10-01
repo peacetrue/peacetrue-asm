@@ -1,23 +1,6 @@
-<<<<<<< HEAD
 = peacetrue-asm
 xiayx <xiayouxue@hotmail.com>
-v2.0.0-SNAPSHOT, 2019-09-29: SNAPSHOT
-=======
-= peacetrue-core
-xiayx <xiayouxue@hotmail.com>
-V2.0.0-SNAPSHOT, 2019-09-29: SNAPSHOT
->>>>>>> origin/master
-:doctype: docbook
-:toc: left
-:numbered:
-:imagesdir: docs/assets/images
-:sourcedir: src/main/java
-:resourcesdir: src/main/resources
-:testsourcedir: src/test/java
-:source-highlighter: highlightjs
+v2.0.0, 2019-09-29: SNAPSHOT
 
-<<<<<<< HEAD
 查看 https://peacetrue.github.io/public/peacetrue-asm/index.html[详情^]
-=======
-查看 https://peacetrue.github.io/public/peacetrue-core/index.html[详情^]
->>>>>>> origin/master
+

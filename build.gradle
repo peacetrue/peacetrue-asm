@@ -9,8 +9,8 @@ plugins {
 allprojects { project ->
 
     group "com.github.peacetrue"
-    version "2.0.0-SNAPSHOT"
-    description "提供asm扩展"
+    version "1.1.0-SNAPSHOT"
+    description "提供asm扩展支持"
 
     apply plugin: "java"
     apply plugin: "java-library"
@@ -37,8 +37,8 @@ allprojects { project ->
     apply plugin: "io.spring.dependency-management"
     dependencyManagement {
         imports {
-            mavenBom "com.github.peacetrue:peacetrue-dependencies:2.0.0-SNAPSHOT"
-            mavenBom "org.springframework.boot:spring-boot-dependencies:2.0.0.RELEASE"
+            mavenBom "org.springframework.boot:spring-boot-dependencies:1.5.20.RELEASE"
+            mavenBom "com.github.peacetrue:peacetrue-dependencies:1.0.4-SNAPSHOT"
         }
     }
 
@@ -53,8 +53,8 @@ allprojects { project ->
         testImplementation "junit:junit"
         testCompileOnly "org.projectlombok:lombok"
         testAnnotationProcessor "org.projectlombok:lombok"
-        testImplementation 'org.springframework.integration:spring-integration-sftp'
         testImplementation "ch.qos.logback:logback-classic"
+        testImplementation 'org.springframework.integration:spring-integration-sftp'
     }
 
     task antoraCopySourceToExample() {
