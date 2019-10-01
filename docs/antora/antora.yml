@@ -1,5 +1,5 @@
 name: peacetrue-asm
-title: 字节码扩展支持
+title: 字节码扩展
 version: master
 start_page: ROOT:index.adoc
 nav:
