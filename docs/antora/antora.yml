@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 name: peacetrue-asm
-title: peacetrue asm
-=======
-name: peacetrue-core
-title: peacetrue-core
->>>>>>> origin/master
+title: 字节码扩展支持
 version: master
 start_page: ROOT:index.adoc
 nav:
